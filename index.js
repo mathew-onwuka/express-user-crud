@@ -9,7 +9,6 @@ const mongoose = require('mongoose');
 // Import router
 const router = require("./routes/userRoutes");
 
-// const live_url = "mongodb+srv://mathewonwuka_db_user:RXADFIYiYqW08wX3@techcrush.hwwrq1m.mongodb.net/UserDB?appName=techcrush"
 const local_url = "mongodb://localhost:27017/userDB"
 
 mongoose
